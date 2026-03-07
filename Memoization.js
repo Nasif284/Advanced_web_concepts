@@ -28,7 +28,7 @@ function factorialWithMemo(n, memo = {}) {
   }
   memo[n] = n * factorialWithMemo(n - 1);
   return memo[n];
-// }
+}
 // console.log(factorialWithMemo(15))
 
 function sum(n) {
@@ -83,5 +83,5 @@ function slowSquare(n) {
 
 const memoSquare = memoize(slowSquare);
 
-// memoSquare(5);
-// memoSquare(5);
+memoSquare(5);
+memoSquare(5)

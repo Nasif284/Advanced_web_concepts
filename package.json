@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "immer": "^11.1.4"
+  
+  }
+}
